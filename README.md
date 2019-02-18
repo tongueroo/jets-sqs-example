@@ -1,6 +1,6 @@
 ## Jets SQS Events Example
 
-This project shows a simple CloudWatch Events example with [Jets](http://rubyonjets.com/).
+This project shows a simple SQS Events example with [Jets](http://rubyonjets.com/).
 
 ## Usage
 
