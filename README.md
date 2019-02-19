@@ -18,6 +18,9 @@ Next, we'll deploy the app to AWS Lambda with [jets deploy](http://rubyonjets.co
 
 Here's an example of publishing a test message with the [aws sqs send-message](https://docs.aws.amazon.com/cli/latest/reference/sqs/send-message.html) cli.
 
+    aws sqs send-message --queue-url https://sqs.us-west-2.amazonaws.com/112233445566/test-queue --message-body '{"test": "hello world"}'
+
+
 Here's the blog article:
 
 * Blog Post: []()
