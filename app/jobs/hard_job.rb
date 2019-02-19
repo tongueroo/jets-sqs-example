@@ -16,7 +16,7 @@ class HardJob < ApplicationJob
     puts "lift #{JSON.dump(event)}"
   end
 
-  sqs_event "!Ref Waitlist"
+  sqs_event ref(:waitlist)
   def fix
     puts "fix #{JSON.dump(event)}"
   end
