@@ -14,6 +14,10 @@ Next, we'll deploy the app to AWS Lambda with [jets deploy](http://rubyonjets.co
 
     jets deploy
 
+## Send Test Message
+
+Here's an example of publishing a test message with the [aws sqs send-message](https://docs.aws.amazon.com/cli/latest/reference/sqs/send-message.html) cli.
+
 Here's the blog article:
 
 * Blog Post: []()
